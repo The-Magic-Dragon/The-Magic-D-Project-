@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="Enter your description here"/>
 
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/css/style3.css">
 <link rel="stylsheet" href= "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 
 <!-- NEEDS TO BE CHANGED TO BULMA -->
@@ -35,20 +35,7 @@
   </div>
   
   <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-
-  <script>
-    $(document).ready(function() {
-  var chuckNorris = "https://api.icndb.com/jokes/random";
-  $("button").on("click", function(){
-    $("button").html("Get More Chuckles!");
-    $.getJSON(chuckNorris, function(json) {
-      $("#quote").html("<em>\""+json.value.joke+"\"</em>").addClass("animated bounceIn");
-    });
-      });
-
-    })
-  </script>
-
+ 
 
 
    <!-- Source: https://semantic-ui.com/elements/button.html -->
@@ -73,8 +60,8 @@
     </div>
   </footer>-->
 
-    
-
 <!-- add in script for Bulma  -->
+<script src="assets/js/main.js"></script>
+
 </body>
 </html>
