@@ -1,0 +1,11 @@
+.carousel{
+    overflow:hidden;
+  }
+.m-padding a{
+    margin: 5px;
+    background: #ccc;
+    display: block;
+    border-radius: 5px;
+    overflow:hidden;
+  }
+  
