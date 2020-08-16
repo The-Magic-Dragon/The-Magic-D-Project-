@@ -1,3 +1,9 @@
+header{
+    background-image: url("https://images.wallpaperscraft.com/image/flag_america_usa_132681_3840x2400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
 .carousel{
     overflow:hidden;
   }
@@ -8,4 +14,64 @@
     border-radius: 5px;
     overflow:hidden;
   }
+  #header {
+      font-family: 'Permanent Marker', cursive;
+      background-color: black;
+      color: red;
+  }
+
+.welcome {
+    font-family: 'Shadows Into Light Two', cursive;
+    text-align: center;
+    background-color: blue;
+    color: yellow;
+
+}
+
+/* #intro {
+    color: whitesmoke;
+    margin-left: 30px;
+    padding: 10px;
+    text-align-last: center;
+} */
+
+h1 {
+    text-align-last: center;
+    
+}
+#howTo{
+    color: yellow;
+}
+#HowtoContent{
+    color:whitesmoke;
+}
+#gifsTitle{
+    color: whitesmoke;
+}
+#gifCont{
+    background-color: rgba(0, 0, 255, 0.6);
+
+}
+#h5Gif{
+    color: whitesmoke;
+}
+#quoteCont{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+#quote{
+    background-color: rgba(20, 32, 207, 0.6);
+    color: whitesmoke;
+    height: 40px;
+    
+    
+   
+}
+#cont {
+    height: fit-content;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
   
