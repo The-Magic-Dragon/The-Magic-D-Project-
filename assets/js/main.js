@@ -49,6 +49,8 @@ $(document).ready(function () {
     $("#joke-search").html("Get another one!");
   $.getJSON(chuckNorris, function (json) {
     $("#quote").html("<em>\"" + json.value.joke + "\"</em>").addClass("animated bounceIn");
+    // display
+    document.querySelector("#quoteCont").style.display = 'block';
   });
 });
 
