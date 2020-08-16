@@ -30,4 +30,33 @@ html {
 #HowtoContent{
     color: blue;
 }
+#gifsTitle{
+    color: whitesmoke;
+}
+#gifCont{
+    background-color: rgba(0, 0, 255, 0.6);
+
+}
+#h5Gif{
+    color: whitesmoke;
+}
+#quoteCont{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+#quote{
+    background-color: rgba(20, 32, 207, 0.6);
+    color: whitesmoke;
+    height: 40px;
+    
+    
+   
+}
+#cont {
+    height: fit-content;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
   

@@ -18,7 +18,7 @@ $(document).ready(function () {
     // remove the first image if there are already maxGifs on the page
     if (numberGifs === maxGifs){
       document.querySelectorAll('.chuck-gif')[maxGifs - 1].remove();
-    }
+    };
     // make the ajax request and add the image
     $.ajax({
       url: queryURL,
