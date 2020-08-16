@@ -32,10 +32,11 @@
 ## Known Bugs 
 *
 
+
 ### Project References:
 
-    * Deployment Link: 
-    * Repository Link:
+    * Deployment Link:  https://the-magic-dragon.github.io/The-Magic-D-Project-/
+    * Repository Link: https://github.com/The-Magic-Dragon/The-Magic-D-Project-.git
     * For: Trilogy - Full Stack Development Program UC Davis Cohort 2020
 
 ### Collaborators
