@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Description" content="Enter your description here" />
-<!-- bulma -->
+  <!-- bulma -->
   <link rel="stylesheet" href="assets/bulma/bulma-0.9.0/css/bulma-rtl.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
   <!-- css -->
@@ -21,119 +21,121 @@
 </head>
 
 <body>
-  <!-- header -->
-  <header>
-    <h1 id="header" class="columns  is-size-1 is is-centered">Chuck Norris, The Man, The Myth, The Legend! </h1>
-  </header>
-  <!-- main container -->
-  <div class="container">
-    <div class="rowTop">
-      <div class="welcome">
-        <p id="intro">This page will blow your mind with explosive content from our lord and savior, the one the only CHUCK NORRIS!!
-        </p>
-        <br>
-        <p id="HowtoContent" class="subtitle">
-          Scroll or use the Navbar to jump to the content you want to enjoy! Generate Jokes, and Movies with the
-          ultimate ChuckNess!!!!!
-        </p>
+  <!-- Upper Container for Flag -->
+  <section id="upperCont">
+    <!-- header -->
+    <header>
+      <h1 id="header" class="columns  is-size-1 is is-centered">Chuck Norris, The Man, The Myth, The Legend! </h1>
+    </header>
+    <!-- main container -->
+    <div class="container">
+      <div class="rowTop">
+        <div class="welcome">
+          <p id="intro">This page will blow your mind with explosive content from our lord and savior, the one the only
+            CHUCK NORRIS!!
+          </p>
+          <br>
+          <p id="HowtoContent" class="subtitle">
+            Scroll or use the Navbar to jump to the content you want to enjoy! Generate Jokes, and Movies with the
+            ultimate ChuckNess!!!!!
+          </p>
+        </div>
       </div>
-    </div>
 
-    <section class="section">
-      <div class="container is-vcentered is-3">
-        <!-- Start Carousel -->
-        <div id="carousel-demo" class="carousel is-vcentered" slides-To-Show="1">
-          <div class="item-1">
-            <img src="assets/img/Chuck-Norris.jpg" alt="Chuck and explosions">
+      <section class="section">
+        <div class="container is-vcentered is-3">
+          <!-- Start Carousel -->
+          <div id="carousel-demo" class="carousel is-vcentered" slides-To-Show="1">
+            <div class="item-1">
+              <img src="assets/img/Chuck-Norris.jpg" alt="Chuck and explosions">
+            </div>
+            <div class="item-2 mx-2">
+              <img src="assets/img/chuck-norris-15.jpg" alt="Chuck Norris">
+            </div>
+            <div class="item-3 mx-2">
+              <img src="assets/img/chuck-and-guns.webp" alt="Chuck Norris and his guns">
+            </div>
+            <div class="item-4 mx-2">
+              <img src="assets/img/chuck1.jpg" alt="Chuck Norris and his guns">
+            </div>
+            <div class="item-5 mx-2">
+              <img src="assets/img/chuck2.jpg" alt="Chuck Norris and his guns">
+            </div>
+            <div class="item-6 mx-2">
+              <img src="assets/img/chuck3.jpg" alt="Chuck Norris and his guns">
+            </div>
+            <div class="item-7 mx-2">
+              <img src="assets/img/Dont-Mess-Chuck.webp" alt="Chuck Norris and his guns">
+            </div>
+            <div class="item-8 mx-2">
+              <img src="assets/img/Leave-Your-Hat.webp" alt="Chuck Norris and his guns">
+            </div>
           </div>
-          <div class="item-2 mx-2">
-            <img src="assets/img/chuck-norris-15.jpg" alt="Chuck Norris">
-          </div>
-          <div class="item-3 mx-2">
-            <img src="assets/img/chuck-and-guns.webp" alt="Chuck Norris and his guns">
-          </div>
-          <div class="item-4 mx-2">
-            <img src="assets/img/chuck1.jpg" alt="Chuck Norris and his guns">
-          </div>
-          <div class="item-5 mx-2">
-            <img src="assets/img/chuck2.jpg" alt="Chuck Norris and his guns">
-          </div>
-          <div class="item-6 mx-2">
-            <img src="assets/img/chuck3.jpg" alt="Chuck Norris and his guns">
-          </div>
-          <div class="item-7 mx-2">
-            <img src="assets/img/Dont-Mess-Chuck.webp" alt="Chuck Norris and his guns">
-          </div>
-          <div class="item-8 mx-2">
-            <img src="assets/img/Leave-Your-Hat.webp" alt="Chuck Norris and his guns">
-          </div>
-      </div>
+        </div>
+      </section>
+  </section>
+  <!-- End upper Container -->
+  <br>
+  <!-- Start Chuck Movie Generator -->
+  <div class="Generator is-flex is-horizontal-center" id="movieGen">
+    <h1 class="text-center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Chuck Movie
+      Generator
+    </h1>
+    <br>
+  </div>
+  <!-- button -->
+  <div class="is-flex is-horizontal-center" style="padding-top: 15px;" id="movie-btn">
+    <button class="button is-danger" id="movie-search">Movies the Chuck has blessed you with </button>
+  </div>
+  <!-- display of movie -->
+  <div>
+    <div class="is-flex is-horizontal-center" id="movie-search" style="padding-top: 15px;">
     </div>
-    </section>
-
+    <div style="padding-top: 15px; padding-left: 10%; padding-right: 10%;">
+      <h3 id="movie-view" class="is-flex is-horizontal-center"></h3>
+    </div>
     <br>
 
     <!-- start Chuck Joke Section -->
-    <div class="containters">
+    <div class="containers">
 
-      
-      <div class="columns">
-        <div class="column is-two-fifths">
+
+      <div id="jokesCont" class="columns is-centered">
+        <div class="is-two-fifths is-vcentered is-centered">
           <div class="Generator" id="joke">
             <h1 class="text-center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Chuck
               Norris Jokes Generator
             </h1>
             <!-- image -->
-            <div class="text-center" style="padding-top: 15px;">
+            <div class="card-content is-flex is-horizontal-center" style="padding-top: 15px;">
               <img src="assets/images/chucksmiles.jpg" style="width:40%">
             </div>
-            <!-- button -->
-            <div class="text-center" style="padding-top: 15px;">
-              <button class="button is-danger is-animated-pulse" id="joke-search">Get some Dangerous Chuckles </button>
-            </div>
-          </div>
-        </div>
-            <div id="cont" class="column is-three-fifths is-centered ">
+            <div id="cont" class="is-centered ">
               <div id="quoteCont" style="display: none;">
                 <h3 id="quote" class="text-center"></h3>
               </div>
             </div>
+            <!-- button -->
+            <div class=" is-flex is-horizontal-center" style="padding-top: 15px;">
+              <button class="button is-danger is-animated-pulse" id="joke-search">Get some Dangerous Chuckles </button>
+            </div>
+          </div>
+        </div>
       </div>
-        <!-- End Chuck Joke Section -->
+      <!-- End Chuck Joke Section -->
       <!-- Start Gif Search area -->
-      <div id="gifCont" class="column is-vcentered">
-        <h1 id="gifsTitle">Get Chuck Gifs</h1>
-        <h5 id="h5Gif" class="mt-1">Search for a Gif:</h5>
-        <div class="form-inline form-group">
+      <div id="gifCont" class=" is-flex is-horizontal-center">
+        <div>
+          <br>
           <button class="button is-danger" id="gif-search">Danger Gifs are Here! <i class="fa fa-search"></i></button>
         </div>
-        <div id="gif-images">
-
-        </div>
+      </div>
+      <div id="gif-images" class="is-flex is-horizontal-center">
       </div>
       <!-- end gif search and display -->
-      <!-- Start Chuck Movie Generator -->
-      <div class="Generator" id="quote">
-        <h1 class="text-center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Chuck Movie
-          Generator
-        </h1>
-
-        <!-- button -->
-        <div class="text-center" style="padding-top: 15px;">
-          <button class="button is-danger" id="movie-search">Movies the Chuck has blessed you with </button>
-        </div>
-        <!-- display of movie -->
-        <div class="text-center" id="movie-view" style="padding-top: 15px;">
-
-        </div>
-
-        <div style="padding-top: 15px; padding-left: 10%; padding-right: 10%;">
-          <h3 id="quote" class="text-center"></h3>
-        </div>
-      </div>
 
     </div>
-    
+
   </div>
   <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
