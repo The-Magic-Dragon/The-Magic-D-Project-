@@ -24,13 +24,13 @@
 * https://imdb-api.com/en/API/Posters/k_bU3y02ls/chuck_movie_id
 
 ## Challenges 
-*
+* The Api Keys seemed to prove difficult as far as function and design. Also, formatting the webpage with CSS created a think "out of the box" mentality for all the content to appear flowing and not forced. Plus, the content and background loading simultaneously was another obstacle.
 
 ## Upcoming/Future Features
-*
+*The webpage can be updated with future Chuck Norris meet and greets, upcoming projects, and of course more joke content....never have too many Chuck Norris memes. As his career changes so can the evolution of the website to relex current information.
 
 ## Known Bugs 
-*
+*Ds.Store error from Apple. Getting the Api's to talk to the website. 
 
 
 ### Project References:
