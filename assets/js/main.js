@@ -88,9 +88,9 @@ $(document).ready(function () {
       // render the poster
       pickPoster(response);
       console.log(response);
+      newFunction();
 
     });
-    newFunction();
 
     // // Here we construct our URL
     // var queryURL = "https://www.omdbapi.com/?t=" + movie + "&apikey=trilogy";
