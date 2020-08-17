@@ -57,6 +57,8 @@ h1 {
 }
 #gifCont{
     background-color: rgba(0, 0, 255, 0.6);
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 #h5Gif{
@@ -68,9 +70,10 @@ h1 {
     margin-bottom: auto;
 }
 #quote{
-    background-color: rgba(20, 32, 207, 0.6);
+    background-color: rgb(20, 33, 207);
     color: whitesmoke;
     height: fit-content;
+
     
     
    
@@ -86,9 +89,11 @@ html{
     background-color: black;
 }
 #jokesCont{
-    background-color:red;
+    background-color:rgba(255, 0, 0, 0.616);
     height: fit-content;
-    width: 500px;
+    width: 470px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-style: ridge;
     border-radius: 25px;
     margin-right: auto;
@@ -105,12 +110,16 @@ html{
   #gif-images{
     background-color: rgba(0, 0, 255, 0.6);
     padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
 #movie-btn{
     background-color: rgba(245, 245, 245, 0.61);
     margin-bottom: 10px;
     padding-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 #movie-view{
     height: 500px;
@@ -121,20 +130,42 @@ li {
     padding-left: 0;
     text-indent: -1;
     }
-    #JokeBtn{
+#JokeBtn{
         padding-bottom: 10px;
-    }
-    #GifBtn{
-        padding-top: 10px;
-        padding-bottom: 10px;
+}
+#GifBtn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+html{
+    background-image: url("https://labourenergy.org/wp-content/uploads/2020/02/hd-nuclear-explosion-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#header{
+    margin-right: 5px;
+    margin-left: 5px;
 
-    }
-    html{
-        background-image: url("https://labourenergy.org/wp-content/uploads/2020/02/hd-nuclear-explosion-wallpapers.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
+}
+#movieDiv{
+    margin-left: auto ;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#jokeDiv{
+    margin-left: 5px;
+    margin-right: 5px;
+    height: fit-content;
+    width: 500px;
+
+}
+.footer{
+    background-color: black
+    ;
+}
 
     
   
