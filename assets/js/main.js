@@ -13,7 +13,7 @@ $(document).ready(function () {
   // count the number of gifs rendered on the page
   var numberGifs = document.querySelectorAll('.chuck-gif').length;
   // set a maximum number of gifs to return
-  var maxGifs = 4;
+  var maxGifs = 3;
   $("#gif-search").on("click", function () {
     // remove the first image if there are already maxGifs on the page
     if (numberGifs === maxGifs){
@@ -69,7 +69,8 @@ $(document).ready(function () {
   $("#movie-search").on("click", function (event) {
     event.preventDefault();
     // api key ... apikey=k_bU3y02ls
-    var api_key = 'k_bU3y02ls';
+    // 2nd api key = k_D6Gu5xqd
+    var api_key = 'k_D6Gu5xqd';
     
     // get a random chuck movie using the id
     var chuck_movie_id = chuckMovies[Math.floor(Math.random() * chuckMovies.length)];
