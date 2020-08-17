@@ -31,17 +31,19 @@
 
 ## Known Bugs 
 *Ds.Store error from Apple. Getting the Api's to talk to the website. 
+### The following image demonstrates the application functionality:
 
+<img width="1566" alt="magicD" src="https://user-images.githubusercontent.com/66084311/90440879-d2820100-e08c-11ea-8256-b043b3b2f82b.png">
 
 ### Project References:
 
-    * Deployment Link:  https://the-magic-dragon.github.io/The-Magic-D-Project-/
-    * Repository Link: https://github.com/The-Magic-Dragon/The-Magic-D-Project-.git
-    * For: Trilogy - Full Stack Development Program UC Davis Cohort 2020
+* Deployment Link: https://the-magic-dragon.github.io/The-Magic-D-Project-/
+* Repository Link: https://github.com/The-Magic-Dragon/The-Magic-D-Project-.git
+* For: Trilogy - Full Stack Development Program UC Davis Cohort 2020
 
 ### Collaborators
-<a href="https://github.com/aliciagorton">Alicia Gorton</a> - 
+<a href="https://githubt.com/chadalac27">Chad Coleman</a> -
 <a href="https://github.com/audluc">Audra Dagenais</a> -
-<a href="https://githubt.com/chadalac27">Chad Coleman</a>
+<a href="https://github.com/aliciagorton">Alicia Gorton</a> 
 
 ##### Copyright © 2020 All Rights Reserved
