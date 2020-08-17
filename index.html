@@ -36,7 +36,7 @@
           </p>
           <br>
           <p id="HowtoContent" class="subtitle">
-            Scroll or use the Navbar to jump to the content you want to enjoy! Generate Jokes, and Movies with the
+            Scroll to the content you want to enjoy and press our buttons! Generate Jokes, Movies, and Gifs with the
             ultimate ChuckNess!!!!!
           </p>
         </div>
@@ -77,66 +77,67 @@
   <!-- End upper Container -->
   <br>
   <!-- Start Chuck Movie Generator -->
-  <div class="Generator is-flex is-horizontal-center" id="movieGen">
-    <h1 class="text-center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Chuck Movie
-      Generator
-    </h1>
-    <br>
-  </div>
-  <!-- button -->
-  <div class="is-flex is-horizontal-center" style="padding-top: 15px;" id="movie-btn">
-    <button class="button is-danger" id="movie-search">Movies the Chuck has blessed you with </button>
-  </div>
-  <!-- display of movie -->
-  <div>
-    <div class="is-flex is-horizontal-center" id="movie-search" style="padding-top: 15px;">
+
+  <div id="movieDiv" class="container">
+    <div class="Generator is-flex is-horizontal-center" id="movieGen">
+      <h1 class="text-center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Chuck Movie
+        Generator
+      </h1>
+      <br>
     </div>
-    <div id="movieCont" class="is-hidden is-flex is-horizontal-center" style="padding-top: 15px; padding-left: 10%; padding-right: 10%;">
-      <h3 id="movie-view" class="is-flex is-horizontal-center"></h3>
+    <!-- button -->
+    <div class="is-flex is-horizontal-center" style="padding-top: 15px;" id="movie-btn">
+      <button class="button is-danger" id="movie-search">Movies the Chuck has blessed you with </button>
     </div>
-    <br>
+    <!-- display of movie -->
+    <div>
+      <div class="is-flex is-horizontal-center" id="movie-search" style="padding-top: 15px;">
+      </div>
+      <div id="movieCont" class="is-hidden is-flex is-horizontal-center"
+        style="padding-top: 15px; padding-left: 10%; padding-right: 10%;">
+        <h3 id="movie-view" class="is-flex is-horizontal-center"></h3>
+      </div>
+    </div>
+  </div>
+  <br>
 
-    <!-- start Chuck Joke Section -->
-    <div class="containers">
-
-
-      <div id="jokesCont" class="columns is-centered">
-        <div class="is-two-fifths is-vcentered is-centered">
-          <div class="Generator" id="joke">
-            <h1 class="text-center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Chuck
-              Norris Jokes Generator
-            </h1>
-            <!-- image -->
-            <div class="card-content is-flex is-horizontal-center" style="padding-top: 15px;">
-              <img src="assets/images/chucksmiles.jpg" style="width:40%">
+  <!-- start Chuck Joke Section -->
+  <div class="container">
+    <div id="jokesCont" class="container is-horizontal-center is-mobile">
+      <div class="is-two-fifths is-vcentered is-centered">
+        <div class="Generator" id="joke">
+          <h1 class="text-center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Chuck
+            Norris Jokes Generator
+          </h1>
+          <!-- image -->
+          <div class="card-content is-flex is-horizontal-center" style="padding-top: 15px;">
+            <img src="assets/images/chucksmiles.jpg" style="width:40%">
+          </div>
+          <div id="cont" class="is-centered ">
+            <div id="quoteCont" style="display: none;">
+              <h3 id="quote" class="text-center"></h3>
             </div>
-            <div id="cont" class="is-centered ">
-              <div id="quoteCont" style="display: none;">
-                <h3 id="quote" class="text-center"></h3>
-              </div>
-            </div>
-            <!-- button -->
-            <div id="JokeBtn" class=" is-flex is-horizontal-center" style="padding-top: 15px;">
-              <button class="button is-danger is-animated-pulse" id="joke-search">Get some Dangerous Chuckles </button>
-            </div>
+          </div>
+          <!-- button -->
+          <div id="JokeBtn" class=" is-flex is-horizontal-center" style="padding-top: 15px;">
+            <button class="button is-danger is-animated-pulse" id="joke-search">Get some Dangerous Chuckles </button>
           </div>
         </div>
       </div>
-      <!-- End Chuck Joke Section -->
-      <!-- Start Gif Search area -->
-      <div id="gifCont" class=" is-flex is-horizontal-center">
-        <div id="GifBtn">
-          <button class="button is-danger" id="gif-search">Danger Gifs are Here! <i class="fa fa-search"></i></button>
-        </div>
-      </div>
-      <div id="gif-images" class="is-flex is-horizontal-center">
-      </div>
-      <!-- end gif search and display -->
-
     </div>
-
+    <!-- End Chuck Joke Section -->
+    <!-- Start Gif Search area -->
+    <div id="gifCont" class=" is-flex is-horizontal-center">
+      <div id="GifBtn">
+        <button class="button is-danger" id="gif-search">Danger Gifs are Here! <i class="fa fa-search"></i></button>
+      </div>
+    </div>
+    <div id="gif-images" class="is-flex is-horizontal-center">
+    </div>
+    <!-- end gif search and display -->
   </div>
-  <footer class="footer">
+  </div>
+  <footer id="footer" class="footer">
     <div class="content has-text-centered">
       <p>
         <strong>Bulma</strong> by:
@@ -148,7 +149,7 @@
         Link to our: <a href="https://github.com/The-Magic-Dragon/The-Magic-D-Project-.git">Project Repository</a>
         <!-- copy right -->
         <a href="https://jgthms.com"></a>. The source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">Triology</a>. Copyright © 2020 All Rights Reserved.
+        <a href="http://opensource.org/licenses/mit-license.php">Triology</a>. <p>Copyright © 2020 All Rights Reserved.</p>
       </p>
   
     </div>
