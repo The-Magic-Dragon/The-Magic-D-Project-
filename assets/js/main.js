@@ -90,7 +90,7 @@ $(document).ready(function () {
       console.log(response);
 
     });
-    $("movieCont").click(removeClass("is-hidden"));
+    newFunction();
 
     // // Here we construct our URL
     // var queryURL = "https://www.omdbapi.com/?t=" + movie + "&apikey=trilogy";
@@ -132,4 +132,10 @@ $(document).ready(function () {
   }
 
 });
+
+function newFunction() {
+  $("#movie-search").on(`click`, function(){
+    $("#movieCont").removeClass("is-hidden")
+  });
+}
 
