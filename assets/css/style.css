@@ -74,4 +74,10 @@ h1 {
     margin-right: auto;
     
 }
-  
+.socialMedia{
+    float: right;
+}
+
+footer{
+    text-align: center;
+}
