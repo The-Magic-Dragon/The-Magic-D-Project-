@@ -66,6 +66,7 @@ $(document).ready(function () {
   // looking at id values in the html for each movie. Maybe a bit complicated... but it works
   var chuckMovies = ['tt1600194', 'tt2712740', 'tt1764651', 'tt0432267', 'tt0480273', 'tt0364725', 'tt0247144', 'tt0312450', 'tt0304584', 'tt0106168', 'tt0234516', 'tt0163949', 'tt0185114', 'tt0176943', 'tt0116341', 'tt0114697', 'tt0107101', 'tt0324568', 'tt0105402', 'tt0102045', 'tt0099399', 'tt0095296', 'tt0094792', 'tt0165166', 'tt0091055', 'tt0090927', 'tt0089348', 'tt0088936', 'tt0089604', 'tt0087727', 'tt0085862', 'tt0083960', 'tt0084684', 'tt0082350', 'tt0081259', 'tt0079168', 'tt0079227', 'tt0075783', 'tt0070705', 'tt0070743', 'tt0068935', 'tt0065225'];
 
+  $("#movie-search").on("click",newFunction());
   $("#movie-search").on("click", function (event) {
     event.preventDefault();
     // api key ... apikey=k_bU3y02ls
@@ -88,7 +89,6 @@ $(document).ready(function () {
       // render the poster
       pickPoster(response);
       console.log(response);
-      newFunction();
 
     });
 
