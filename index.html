@@ -91,7 +91,7 @@
   <div>
     <div class="is-flex is-horizontal-center" id="movie-search" style="padding-top: 15px;">
     </div>
-    <div style="padding-top: 15px; padding-left: 10%; padding-right: 10%;">
+    <div id="movieCont" class="is-hidden is-flex is-horizontal-center" style="padding-top: 15px; padding-left: 10%; padding-right: 10%;">
       <h3 id="movie-view" class="is-flex is-horizontal-center"></h3>
     </div>
     <br>
@@ -116,7 +116,7 @@
               </div>
             </div>
             <!-- button -->
-            <div class=" is-flex is-horizontal-center" style="padding-top: 15px;">
+            <div id="JokeBtn" class=" is-flex is-horizontal-center" style="padding-top: 15px;">
               <button class="button is-danger is-animated-pulse" id="joke-search">Get some Dangerous Chuckles </button>
             </div>
           </div>
@@ -125,8 +125,7 @@
       <!-- End Chuck Joke Section -->
       <!-- Start Gif Search area -->
       <div id="gifCont" class=" is-flex is-horizontal-center">
-        <div>
-          <br>
+        <div id="GifBtn">
           <button class="button is-danger" id="gif-search">Danger Gifs are Here! <i class="fa fa-search"></i></button>
         </div>
       </div>
@@ -137,22 +136,50 @@
     </div>
 
   </div>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
-  <script>
-    bulmaCarousel.attach('#carousel-demo', {
-      slidesToScroll: 1,
-      slidesToShow: 4,
-      pagination: false,
-      loop: true,
-      autoplay: true,
-      autoplaySpeed: 3000,
-    });
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="https://jgthms.com">Contributers: Alicia, Audra, and Chad.</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">Triology</a>. Link to our: <a href="https://github.com/The-Magic-Dragon/The-Magic-D-Project-.git">Project Repository</a>.
+      </p>
+  
+      <a href="https://github.com/aliciagorton">Alicia Gorton</a>
+  
+      <a href="https://github.com/audluc">Audra Dagenais</a>
+  
+      <a href="https://githubt.com/chadalac27">Chad Coleman</a>
+   
+      <ul>
+        <li>Alicia Gorton:<a href="https://github.com/aliciagorton" target="_blank"> aliciagorton</a></li>
+        <li id="Ali">Audra Dagenais:<a href="https://github.com/audluc" target="_blank"> audluc</a></li>
+        <li>Chad Coleman:<a href="https://github.com/chadalac27" target="_blank"> chadalac27</a></li>
+      </ul>
+  
+  
+    </div>
+  
+  
+  
+  
+  
+  
+  </footer>
 </body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+<script>
+  bulmaCarousel.attach('#carousel-demo', {
+    slidesToScroll: 1,
+    slidesToShow: 4,
+    pagination: false,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
 
 </html>
