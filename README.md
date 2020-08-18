@@ -2,8 +2,7 @@
 
 ## Project description
 
-*
-This project is a ultimate Chuck Norris fanpage. Using a combination of html,css (bulma), and javascript we powered multiple buttons to make api pulls and dynamically generate all kinds of GIfs, Jokes/Quotes, and movie posters. 
+* This project is a ultimate Chuck Norris fanpage. Using a combination of html,css (bulma), and javascript we powered multiple buttons to make api pulls and dynamically generate all kinds of GIfs, Jokes/Quotes, and movie posters. 
 
 ### Collaborators
 <a href="https://github.com/aliciagorton">Alicia Gorton</a> 
