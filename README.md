@@ -15,7 +15,7 @@
 <a href="https://githubt.com/chadalac27">Chad Coleman</a> -
 <a href="https://github.com/audluc">Audra Dagenais</a> -
 <a href="https://github.com/aliciagorton">Alicia Gorton</a>
->>>>>>> master
+
 
 ## Interface/Developement 
 #### Tech/Framework used:
