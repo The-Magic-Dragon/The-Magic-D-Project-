@@ -1,6 +1,7 @@
  # Project 1: Chuck Norris, The Man, The Myth, The Legend!  
 
 ## Project description
+<<<<<<< HEAD
 *
 This project is a ultimate Chuck Norris fanpage. Using a combination of html,css (bulma), and javascript we powered multiple buttons to make api pulls and dynamically generate all kinds of GIfs, Jokes/Quotes, and movie posters. 
 
@@ -8,6 +9,14 @@ This project is a ultimate Chuck Norris fanpage. Using a combination of html,css
 <a href="https://github.com/aliciagorton">Alicia Gorton</a> 
 <a href="https://github.com/audluc">Audra Dagenais</a>
 <a href="https://githubt.com/chadalac27">Chad Coleman</a>
+=======
+* Welcome 
+
+### Collaborators
+<a href="https://githubt.com/chadalac27">Chad Coleman</a> -
+<a href="https://github.com/audluc">Audra Dagenais</a> -
+<a href="https://github.com/aliciagorton">Alicia Gorton</a>
+>>>>>>> master
 
 ## Interface/Developement 
 #### Tech/Framework used:
@@ -25,18 +34,36 @@ This project is a ultimate Chuck Norris fanpage. Using a combination of html,css
 * https://imdb-api.com/en/API/Posters/k_bU3y02ls/chuck_movie_id
 
 ## Challenges 
-* The Api Keys seemed to prove difficult as far as function and design. Also, formatting the webpage with CSS created a think "out of the box" mentality for all the content to appear flowing and not forced. Plus, the content and background loading simultaneously was another obstacle.
+* Time management - Staying on deadlines of milestones - Project management 
+* Github merging - learning about gitignore/ Ds.store 
+* Coding main,js file - used a lot of resources TA’s, AskBCS Learning Assistantand and Tutors. 
+* Coding in a new framework (BULMA) and understanding how to use it with CSS - A lot of google FU 
+
 
 ## Upcoming/Future Features
-*The webpage can be updated with future Chuck Norris meet and greets, upcoming projects, and of course more joke content....never have too many Chuck Norris memes. As his career changes so can the evolution of the website to relex current information.
+* Future Features: 
+    * Additional API’s for more Chuck.
+    * Improve on the user experience: 
+        * Adding more dynamic styling to the page 
+        * Adding a short video or mini-player
+    * Improve on the accessibility: 
+        * Add to our accessibility for everyone. 
+        * Making sure our webpage can be enjoyed by everyone. 
 
-## Known Bugs 
-*Ds.Store error from Apple. Getting the Api's to talk to the website. 
-### The following image demonstrates the application functionality:
+    * Chuck himself: As his career changes so can the evolution of the website to reflect current information. 
+        * Guest appearance: like talk shows or tv shows 
+        * Meet and Greets he may attend 
+        * Any upcoming projects he my be involved in 
+
+### Known Bugs 
+* Ds.Store error from Apple. 
+* Getting the Api's to talk to the website. 
+
+#### The following image demonstrates the application functionality:
 
 <img width="1566" alt="magicD" src="https://user-images.githubusercontent.com/66084311/90440879-d2820100-e08c-11ea-8256-b043b3b2f82b.png">
 
-### Project References:
+### The following links to the application:
 
 * Deployment Link: https://the-magic-dragon.github.io/The-Magic-D-Project-/
 * Repository Link: https://github.com/The-Magic-Dragon/The-Magic-D-Project-.git
