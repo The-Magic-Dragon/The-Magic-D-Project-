@@ -1,21 +1,24 @@
  # Project 1: Chuck Norris, The Man, The Myth, The Legend!  
 
 ## Project description
+<<<<<<< HEAD
+*
+This project is a ultimate Chuck Norris fanpage. Using a combination of html,css (bulma), and javascript we powered multiple buttons to make api pulls and dynamically generate all kinds of GIfs, Jokes/Quotes, and movie posters. 
+=======
 
 * This project is a ultimate Chuck Norris fanpage. Using a combination of html,css (bulma), and javascript we powered multiple buttons to make api pulls and dynamically generate all kinds of GIfs, Jokes/Quotes, and movie posters. 
+>>>>>>> master
 
-### Collaborators
-<a href="https://github.com/aliciagorton">Alicia Gorton</a> 
-<a href="https://github.com/audluc">Audra Dagenais</a>
-<a href="https://githubt.com/chadalac27">Chad Coleman</a>
-=======
 * Welcome 
 
 ### Collaborators
 <a href="https://githubt.com/chadalac27">Chad Coleman</a> -
 <a href="https://github.com/audluc">Audra Dagenais</a> -
 <a href="https://github.com/aliciagorton">Alicia Gorton</a>
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 
 ## Interface/Developement 
 #### Tech/Framework used:
