@@ -71,7 +71,7 @@ $(document).ready(function () {
     event.preventDefault();
     // api key ... apikey=k_bU3y02ls
     // 2nd api key = k_D6Gu5xqd
-    var api_key = 'k_D6Gu5xqd';
+    var api_key = 'k_bU3y02ls';
 
     // get a random chuck movie using the id
     var chuck_movie_id = chuckMovies[Math.floor(Math.random() * chuckMovies.length)];
