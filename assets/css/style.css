@@ -35,13 +35,6 @@ header{
 
 }
 
-/* #intro {
-    color: whitesmoke;
-    margin-left: 30px;
-    padding: 10px;
-    text-align-last: center;
-} */
-
 h1 {
     text-align-last: center;
     
@@ -72,10 +65,7 @@ h1 {
 #quote{
     background-color: rgb(20, 33, 207);
     color: whitesmoke;
-    height: fit-content;
-
-    
-    
+    height: fit-content;   
    
 }
 #cont {
@@ -85,6 +75,7 @@ h1 {
     margin-right: auto;
     
 }
+
 html{
     background-color: black;
 }
